@@ -1,6 +1,6 @@
-# Dynamic-energy-simulations-based-on-the-3D-BAG-2.0
+# Dynamic energy simulations based on the 3D BAG v2.0
 
-This repository contains python and sql scripts to create XML CitySIM files from a 3DCityDB instance. It contains the following:
+This repository was created by Yuzhen Jin while writting his MSc Thesis in Geomatics at the TUDelft. It contains python and sql scripts to create XML CitySIM files from a 3DCityDB instance. Here you find:
 
 ## Data
 - **CityGML:** three CityGML v2.0 sample datasets (DTM, Tress, Buildings) of a fictitious city named Alderam.
