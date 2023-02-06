@@ -38,8 +38,8 @@ This repository has been developed and tested using the following:
 
 - Python (works with v3.9 - v3.11)
 - CitySim v.22.05.2022
-- 3DCityDB v.5.0.0
-- 3DCityDB Energy ADE extension v.2.0
+- 3DCityDB Suite. [Link](https://github.com/3dcitydb/3dcitydb-suite)
+- 3DCityDB Energy ADE extension v.2.0. [Link](https://github.com/3dcitydb/energy-ade-citydb)
 - PostgreSQL (Tested in versions 10, 13, 14)
 - PostGIS v3.0.1
 
@@ -48,9 +48,10 @@ This repository has been developed and tested using the following:
 • The geometry GML file can be imported into the database via software 3DCityDB importer/exporter.
 
 ## Disclaimer
-The script available at file **CitySim_XML_Generator.py** in its section 6 or the validation and adjustment of surfaces into convex geometries. We have found some bugs in this part of the code but they have not been solved yet.
 
-We have used as well the data available here https://github.com/tudelft3d/Testbed4UBEM for testing CitySim XML Generator.
+The script works for the provided CityGML files (yes as usual with the sample datasets...) But we have also tested the scripts with a real dataset, that is the case of the CityGML-based 3D City Model testbed for energy-related applications (Testbed4UBEM) [link](https://github.com/tudelft3d/Testbed4UBEM).
+
+For the specifc case of Testbed4UBEM, section 6 of **CitySim_XML_Generator.py** (validation and adjustment of surfaces into convex geometries) requires further development since we have found some bugs in this part of the code but they have not been solved yet.
 
 ## Citation
 If you would like to get further information of Yuzhen's work please have a look at his MSc thesis:
